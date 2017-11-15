@@ -21,21 +21,7 @@ var cookieMaster = {
                     'CookieMaster', 'clearCookies',
                     []
         );
-    },
-    getCookiesList: function(url, successCallback, errorCallback) {
-         cordova.exec(successCallback,
-                     errorCallback,
-                     'CookieMaster', 'getCookiesList',
-                     [url]
-         );
-     },
-    setCookiesList: function (url, cookieString, successCallback, errorCallback) {
-         cordova.exec(successCallback,
-                     errorCallback,
-                     'CookieMaster', 'setCookiesList',
-                     [url, cookieString]
-         );
-     }
+    }
 };
 module.exports = cookieMaster;
 
