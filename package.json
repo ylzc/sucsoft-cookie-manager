@@ -1,71 +1,10 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "cordova-cookie-sharing",
-        "scope": null,
-        "escapedName": "cordova-cookie-sharing",
-        "name": "cordova-cookie-sharing",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "D:\\web\\cordovaPlugin"
-    ]
-  ],
-  "_cnpm_publish_time": 1488459557691,
-  "_from": "cordova-cookie-sharing@latest",
-  "_hasShrinkwrap": false,
-  "_id": "cordova-cookie-sharing@1.0.8",
-  "_inCache": true,
-  "_location": "/cordova-cookie-sharing",
-  "_nodeVersion": "5.10.0",
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/cordova-cookie-sharing-1.0.8.tgz_1488459555703_0.8127591907978058"
-  },
-  "_npmUser": {
-    "name": "rangaraj",
-    "email": "prasannaa91@gmail.com"
-  },
-  "_npmVersion": "3.8.3",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "cordova-cookie-sharing",
-    "scope": null,
-    "escapedName": "cordova-cookie-sharing",
-    "name": "cordova-cookie-sharing",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "http://r.cnpmjs.org/cordova-cookie-sharing/download/cordova-cookie-sharing-1.0.8.tgz",
-  "_shasum": "3d0125b24d4f8838955f616ecf6f10b89245d654",
-  "_shrinkwrap": null,
-  "_spec": "cordova-cookie-sharing",
-  "_where": "D:\\web\\cordovaPlugin",
-  "author": {
-    "name": "Apache Software Foundation"
-  },
   "cordova": {
-    "id": "cordova-cookie-sharing",
+    "id": "sucsoft-cookie-manager",
     "platforms": [
       "ios",
       "android"
     ]
-  },
-  "dependencies": {},
-  "description": "This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of \"document.cookie\".",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "3d0125b24d4f8838955f616ecf6f10b89245d654",
-    "size": 4809,
-    "noattachment": false,
-    "tarball": "http://r.cnpmjs.org/cordova-cookie-sharing/download/cordova-cookie-sharing-1.0.8.tgz"
   },
   "engines": [
     {
@@ -73,7 +12,6 @@
       "version": ">=3.0.0"
     }
   ],
-  "homepage": "",
   "keywords": [
     "cordova",
     "phonegap",
@@ -85,21 +23,6 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "license": "MIT",
-  "maintainers": [
-    {
-      "name": "rangaraj",
-      "email": "prasannaa91@gmail.com"
-    }
-  ],
-  "name": "cordova-cookie-sharing",
-  "optionalDependencies": {},
-  "publish_time": 1488459557691,
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "scripts": {},
-  "version": "1.0.8"
+  "version": "1.0.0",
+  name:"sucsoft-cookie-manager"
 }
